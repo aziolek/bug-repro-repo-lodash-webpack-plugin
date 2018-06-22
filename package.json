@@ -1,0 +1,27 @@
+{
+  "name": "lodash-webpack-plugin-react-google-maps",
+  "author": "Andrzej Ziółek",
+  "version": "1.0.0",
+  "description": "Reproduce repository for lodash-webpack-plugin (v0.11.5) breaking react-google-maps (v9.4.5)",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -Rf client/public/*.js",
+    "nlwp": "./node_modules/.bin/webpack-dev-server --config ./webpack.noLodashWebpackPlugin.config.js ---mode development",
+    "wlwp": "./node_modules/.bin/webpack-dev-server --config ./webpack.withLodashWebpackPlugin.config.js ---mode development"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-react": "^6.24.1",
+    "lodash": "^4.17.10",
+    "lodash-webpack-plugin": "^0.11.5",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-google-maps": "^9.4.5",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^3.1.4"
+  }
+}
