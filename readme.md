@@ -1,5 +1,14 @@
 # Reproduce repository for lodash-webpack-plugin (v0.11.5) breaking react-google-maps (v9.4.5)
 
+## -- Bug fixed --
+
+Using `collections: true` fixes this issue:
+```
+new LodashModuleReplacementPlugin({
+  collections: true
+}),
+```
+
 ## Description
 
 While using lodash-webpack-plugin (v0.11.5) react-google-maps (v9.4.5) doesn't work properly without emitting any errors to console in dev and prod builds. react-google-maps shows blank grey space.
