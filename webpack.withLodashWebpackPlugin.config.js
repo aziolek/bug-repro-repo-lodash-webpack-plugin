@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const LodashModuleReplacementPlugin = require('lodash-webpack-plugin');
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const clientPath = path.resolve(__dirname, './client/');
 
@@ -13,11 +12,6 @@ module.exports = {
     plugins: [
         new LodashModuleReplacementPlugin({
             collections: true
-        }),
-        new BundleAnalyzerPlugin({
-            analyzerHost: 'localhost',
-            analyzerPort: '8001',
-            openAnalyzer: false
         }),
         new webpack.HotModuleReplacementPlugin(),
         new webpack.NoEmitOnErrorsPlugin()
