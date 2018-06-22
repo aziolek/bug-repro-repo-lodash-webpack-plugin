@@ -14,7 +14,7 @@ Clone below repro repo, install dependencies (npm i) and run it locally (http://
 - To run it locally with lodash-webpack-plugin:
 > npm run wlwp
 
-See the difference.
+See the difference. Ignore google maps dev mode and load warning, they don't matter.
 
 ## Expected behavior
 
