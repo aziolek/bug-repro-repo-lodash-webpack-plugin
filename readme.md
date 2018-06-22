@@ -9,9 +9,9 @@ While using lodash-webpack-plugin (v.0.11.5) react-google-maps (v9.4.5) doesn't 
 Clone below repro repo, install dependencies (npm i) and run it locally (http://localhost:8000).
 - Repro repo:
 > https://github.com/aziolek/bug-repro-repo-lodash-webpack-plugin
-- To run it locally without lodash-webpack-plugin use:
+- To run it locally without lodash-webpack-plugin:
 > npm run nlwp
-- To run it locally with lodash-webpack-plugin use:
+- To run it locally with lodash-webpack-plugin:
 > npm run wlwp
 
 ## Expected behavior
