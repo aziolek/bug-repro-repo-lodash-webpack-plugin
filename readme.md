@@ -6,7 +6,7 @@ Using `collections: true` fixes this issue:
 ```
 new LodashModuleReplacementPlugin({
   collections: true
-}),
+})
 ```
 
 ## Description
