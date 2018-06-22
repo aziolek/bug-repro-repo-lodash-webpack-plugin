@@ -14,6 +14,8 @@ Clone below repro repo, install dependencies (npm i) and run it locally (http://
 - To run it locally with lodash-webpack-plugin:
 > npm run wlwp
 
+See the difference.
+
 ## Expected behavior
 
 react-google-maps works while using lodash-webpack-plugin.
